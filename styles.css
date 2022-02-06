@@ -1,0 +1,84 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+.container-1, .container-2, .container-3, .container-4, .header, .card {
+    display: flex;
+}
+
+.container-1 {
+    flex-direction: column;
+    background-color: #1f2937;
+}
+
+.header {
+    justify-content: space-between;
+    color: #f9faf8;
+    font-size: 24px;
+    margin: 0 96px;
+}
+
+.logo {
+    font-weight: 700;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    float: left;
+}
+
+a {
+    padding-right: 12px;
+    display: inline;
+}
+
+.card {
+    flex: 1 1 100%;
+    margin: 96px;
+    justify-content: space-evenly;
+    height: auto;
+    width: auto;
+}
+
+.name>p:first-child {
+    font-size: 48px;
+    font-weight: 800;
+    color: #f9faf8;
+    margin: 0;
+}
+
+.name>p:nth-of-type(2), .name>p:nth-of-type(3) {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+button {
+background-color: #1d6fdb;
+color: #f9faf8;
+font-weight: 800;
+padding: 2px 16px;
+border-style: hidden;
+border-radius: 4px;
+}
+
+.image-container {
+    height: 300px;
+    width: auto;
+}
+
+.img1 {
+    width: auto;
+    max-height: 100%;
+}
+
+.name {
+    
+}
