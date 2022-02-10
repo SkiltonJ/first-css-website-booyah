@@ -80,6 +80,8 @@ border-radius: 4px;
     display: flex;
     align-items: center;
     width: 100%;
+    border-radius: 10px;
+    overflow: hidden;
 }
 
 .img-1 {
